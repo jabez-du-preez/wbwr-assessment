@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Neue-Plak";
+	src: url("./fonts/Neue-Plak-Regular.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Neue-Plak";
+	src: url("./fonts/Neue-Plak-SemiBold.otf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Neue-Plak";
+	src: url("./fonts/Neue-Plak-Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Neue-Plak";
+	src: url("./fonts/Neue-Plak-CondBlack.ttf");
+	font-weight: 800;
+}
+
+* {
+	font-family: "Neue-Plak";
+}
