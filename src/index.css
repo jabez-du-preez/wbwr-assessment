@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 620px) {
+	.mb-60 {
+		margin-bottom: 40px;
+	}
+}
