@@ -1,17 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { StyledMidHero } from "./styled";
 import midHeroBackgroundDesktop from "./../../images/UA_Theme_2_DT.jpg";
 import midHeroBackgroundMobile from "./../../images/mobile/UA_Theme_2_MB.jpg";
 import { useWindowSize } from "@uidotdev/usehooks";
 
+/**
+ * @method MidHero
+ * @description displays the mid hero section of the page
+ */
 export default function MidHero({ className }) {
 	const windowWidth = useWindowSize().width;
 
-	const [backgroundImage, setBackgroundImage] = React.useState(
+	const [backgroundImage, setBackgroundImage] = useState(
 		midHeroBackgroundDesktop
 	);
 
 	useEffect(() => {
+		// if the window width is less than 600px, set the background image to the mobile version
 		if (windowWidth < 600) {
 			setBackgroundImage(midHeroBackgroundMobile);
 		} else {

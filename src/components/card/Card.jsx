@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledCard } from "./styled";
 
+/**
+ * @method Card
+ * @description takes in an image or video and displays it in a card
+ */
 export default function Card({
 	image,
 	imageAlt,

@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledFooter } from "./styled";
 
+/**
+ * @method Footer
+ * @description displays the footer of the page
+ */
 export default function Footer() {
 	return (
 		<StyledFooter>

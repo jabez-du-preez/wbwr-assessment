@@ -3,14 +3,20 @@ import { StyledHero } from "./styled";
 import backgroundVideoDesktop from "./../../images/UA_Theme_1_DT.mp4";
 import backgroundVideoMobile from "./../../images/mobile/UA_Theme_1_MB.mp4";
 
+/**
+ * @method Hero
+ * @description displays the hero section of the page
+ */
 export default function Hero() {
 	return (
 		<StyledHero className="mb-60 relative">
+			{/* only displays on desktop */}
 			<div className="background-video xs:hidden sm:hidden md:hidden lg:block">
 				<video autoPlay loop muted playsInline>
 					<source src={backgroundVideoDesktop} type="video/mp4" />
 				</video>
 			</div>
+			{/* only displays on mobile */}
 			<div className="background-video sm:block md:block lg:hidden">
 				<video autoPlay loop muted playsInline>
 					<source src={backgroundVideoMobile} type="video/mp4" />

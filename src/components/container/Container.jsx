@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledContainer } from "./styled";
 
+/**
+ * @method Container
+ * @description wraps children in a container
+ */
 export default function Container({ children, className }) {
 	return (
 		<StyledContainer

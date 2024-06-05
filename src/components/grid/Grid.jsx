@@ -5,6 +5,10 @@ import Card from "../card";
 import SectionHeading from "../sectionHeading";
 import Container from "../container";
 
+/**
+ * @method Grid
+ * @description displays a grid of images and videos
+ */
 export default function Grid() {
 	return (
 		<section className="mb-8">

@@ -7,6 +7,8 @@ import promo2 from "./Promo 2.jpg";
 import promo3 from "./Promo 3.jpg";
 import promo4 from "./Promo 4.jpg";
 
+// gear configuration
+// This data will be used to populate the gear section
 export const gear = [
 	{
 		image: train,
@@ -30,6 +32,8 @@ export const gear = [
 	},
 ];
 
+// promo configuration
+// This data will be used to populate the promo section
 export const promos = [
 	{
 		image: promo1,

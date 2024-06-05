@@ -4,6 +4,10 @@ import { Swiper as CustomSwiper } from "swiper/react";
 import SectionHeading from "../sectionHeading";
 import Container from "../container";
 
+/**
+ * @method Swiper
+ * @description displays a swiper component/carousel
+ */
 export default function Swiper({
 	className,
 	children,

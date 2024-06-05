@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledSectionHeading } from "./styled";
 
+/**
+ * @method SectionHeading
+ * @description displays a section heading and subheading
+ */
 export default function SectionHeading({ heading, subHeading, className }) {
 	return (
 		<StyledSectionHeading className={`${className}`}>

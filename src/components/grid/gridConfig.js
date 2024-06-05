@@ -4,6 +4,8 @@ import instaImage3 from "./../../images/IG Image 4_DT.jpg";
 import instaImage4 from "./../../images/IG Image 5_DT.jpg";
 import instaVideo1 from "./../../images/ig_video.mp4";
 
+// Grid configuration
+// This data will be used to populate the grid
 export const gridConfig = [
 	{
 		video: instaVideo1,

@@ -1,6 +1,10 @@
 import React from "react";
 import { StyledHeader } from "./styled";
 
+/**
+ * @method Header
+ * @description displays the header of the page
+ */
 export default function Header() {
 	return (
 		<StyledHeader>
