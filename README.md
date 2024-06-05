@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm install`
 
-Run npm install to install all necessary dependences
+Run npm install to install all necessary dependencies
 
 In the project directory, you can run:
 
