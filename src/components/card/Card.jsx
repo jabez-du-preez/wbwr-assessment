@@ -22,7 +22,6 @@ export default function Card({
 					)}
 					{video && (
 						<video
-							autoPlay
 							controls
 							playsInline
 							src={video}
