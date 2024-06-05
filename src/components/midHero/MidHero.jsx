@@ -51,7 +51,7 @@ export default function MidHero({ className }) {
 						</p>
 						<button
 							type="button"
-							className="text-sm xl:text-base text-white border-2 xs:bg-black sm:bg-black md:bg-transparent lg:bg-transparent xs:border-black sm:border-white md:border-white lg:border-white  xs:w-full sm:w-full md:w-full lg:w-64 h-11"
+							className="flex flex-row items-center justify-center text-sm xl:text-base text-white border-2 xs:bg-black sm:bg-black md:bg-transparent lg:bg-transparent xs:border-black sm:border-white md:border-white lg:border-white  xs:w-full sm:w-full md:w-full lg:w-64 h-11"
 						>
 							Shop Project Rock
 						</button>

@@ -33,7 +33,7 @@ export default function Hero() {
 				</p>
 				<button
 					type="button"
-					className=" xs:text-xs sm:text-sm text-white bg-black sm:w-full md:w-full lg:w-64 h-11 xs:mt-6 sm:mt-6 md:mt-10"
+					className=" xs:text-xs sm:text-sm text-white bg-black sm:w-full md:w-full lg:w-64 h-11 xs:mt-6 sm:mt-6 md:mt-10 flex flex-row items-center justify-center"
 				>
 					Shop UA New Arrivals
 				</button>
