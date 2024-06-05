@@ -18,7 +18,7 @@ export default function Grid() {
 						heading="What’s happening on Instagram"
 						subHeading="Don’t miss out on the latest news and updates from Under Armour."
 					/>
-					<div className="grid-container grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 h-full min-h-full">
+					<div className="grid-container grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-4 h-full min-h-full">
 						{gridConfig.map((item, index) => {
 							return item.featured ? (
 								<div
